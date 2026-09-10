@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Future of Brand, Product and Customer Experiences in an Age of AI — DDX Research</title>
+<meta name="description" content="DDX Research is gathering perspectives from leaders and practitioners across design, product, brand, customer experience, research, technology and innovation.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preload" as="image" href="assets/img/ember.png">
+<link rel="stylesheet" href="assets/css/style.css?v=20260910120421">
+<meta property="og:title" content="The Future of Brand, Product and Customer Experiences in an Age of AI">
+<meta property="og:description" content="What should the next generation of experiences deliver? Two minutes, from leaders across design, product, brand and customer experience.">
+<meta property="og:type" content="website">
+</head>
+<body>
+
+<a class="sr-only" href="#main">Skip to content</a>
+
+<!-- ============================================================ landing -->
+<main id="main">
+<div class="screen" id="landing">
+
+  <header class="hero on-dark">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="assets/img/ember.png" alt="">
+    </div>
+
+    <div class="masthead">
+      <img src="assets/img/ddx-wordmark.png" alt="DDX">
+      <span>Research</span>
+    </div>
+
+    <div class="hero__body">
+      <p class="hero__study" id="studyTitle">The Future of Brand, Product and Customer Experiences in an Age of AI</p>
+      <div class="rule" id="heroRule"></div>
+      <h1 class="display" id="heroHeadline">What should the next generation of experiences deliver?</h1>
+      <p class="deck hero__deck" id="heroDeck">Perspectives from leaders across design, product, brand and customer experience.</p>
+
+      <div class="cta-row">
+        <button class="btn" id="startBtn" type="button">
+          <span id="startLabel">Take the survey</span>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="cta-aside">
+          <p class="cta-aside__time" id="ctaTime"></p>
+          <p class="fine" style="color:rgba(255,255,255,.6)">
+            For professionals working on customer, brand and product experiences.
+            Findings will be reported in aggregate.
+          </p>
+        </div>
+      </div>
+
+      <ol class="proof" id="benefitsList" aria-label="What you get for contributing"></ol>
+      <p class="fine hero__meta" id="beginMeta"></p>
+    </div>
+  </header>
+
+
+</div>
+
+<!-- ============================================================ survey -->
+<div class="screen" id="survey" hidden>
+  <div class="topbar">
+    <div class="topbar__inner">
+      <button class="topbar__home" id="homeBtn" type="button" aria-label="DDX — back to the start"><img src="assets/img/ddx-wordmark.png" alt=""></button>
+      <p class="topbar__title">Brand, Product &amp; Customer Experiences</p>
+      <p class="topbar__count" id="topCount"></p>
+    </div>
+    <div class="progress">
+      <div class="progress__fill" id="progressFill"></div>
+    </div>
+  </div>
+
+  <div class="layout">
+    <nav class="rail" id="rail" aria-label="Survey sections"></nav>
+    <div class="stage" id="stage"></div>
+  </div>
+
+  <div class="controls">
+    <div class="controls__inner">
+      <button class="btn btn--ghost" id="backBtn" type="button">Back</button>
+      <p class="controls__status" id="controlStatus"></p>
+      <button class="btn" id="nextBtn" type="button">Continue</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ end states -->
+<div class="screen end on-dark" id="done" hidden>
+  <div class="hero__bg" aria-hidden="true"><img src="assets/img/ember.png" alt=""></div>
+  <div class="wrap wrap--read" id="doneBody"></div>
+</div>
+</main>
+
+<script type="module" src="assets/js/main.js?v=20260910120421"></script>
+</body>
+</html>

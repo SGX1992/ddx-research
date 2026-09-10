@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+.netlify/
+
+# Speaker loops are large binaries pulled from VEED by sync-quotes.mjs, not
+# source. The README in that folder says what belongs there.
+assets/media/quotes/*.gif
+assets/media/quotes/*.mp4
